@@ -39,3 +39,8 @@ function draw() {
   }
   endShape(CLOSE);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  background(col.bgnd);
+}
